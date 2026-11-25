@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Thala 7.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="checkout-body">
+
+  <div class="checkout-page">
+    <div class="checkout-left">
+      <p class="top-tag">Checkout</p>
+
+      <h3>Contact Details</h3>
+      <div class="form-group">
+        <label>Email ID</label>
+        <input type="email" placeholder="John Doe">
+      </div>
+
+      <h3>Payment</h3>
+      <div class="payment-box">
+        <div class="method-tabs">
+          <div class="method-tab active">
+            <span>💳</span>
+            <p>Card</p>
+          </div>
+          <div class="method-tab">
+            <span>₿</span>
+            <p>Crypto</p>
+          </div>
+          <div class="method-tab">
+            <span>🏛️</span>
+            <p>Bank</p>
+          </div>
+          <div class="method-tab more-tab">
+            <span>⋮</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Card Number</label>
+          <input type="text" placeholder="John Doe">
+        </div>
+
+        <div class="two-col">
+          <div class="form-group">
+            <label>Expiry</label>
+            <input type="text" placeholder="MM/YY">
+          </div>
+          <div class="form-group">
+            <label>CVC</label>
+            <input type="text" placeholder="***">
+          </div>
+        </div>
+
+        <div class="two-col">
+          <div class="form-group">
+            <label>Country</label>
+            <select>
+              <option>India</option>
+              <option>United States</option>
+              <option>United Kingdom</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>ZIP</label>
+            <input type="text" placeholder="XXXXX">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="checkout-right">
+      <h2>Order Summary</h2>
+
+      <div class="summary-card">
+        <label>Enter Coupon Code</label>
+        <div class="coupon-row">
+          <input type="text" placeholder="COUPON CODE">
+          <button class="btn-blue">Apply Coupon</button>
+        </div>
+
+        <div class="bill-line">
+          <span>Sub Total</span>
+          <span>₹4,700</span>
+        </div>
+        <div class="bill-line">
+          <span>Taxes(if applicable)</span>
+          <span>₹199</span>
+        </div>
+        <div class="bill-line">
+          <span>Discount</span>
+          <span>₹0</span>
+        </div>
+        <div class="bill-total">
+          <span>Total</span>
+          <span>₹4,999</span>
+        </div>
+      </div>
+
+      <button class="btn-pay">Pay Now ₹4,999</button>
+
+      <div class="trust-badges">
+        <span class="badge-green">🔒 SECURE SSL</span>
+        <span class="badge-razor">⚡ Razorpay</span>
+        <span class="badge-green">🛡️ VERIFIED</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
